@@ -19,7 +19,9 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-redis")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
-	runtimeOnly("org.postgresql:postgresql")
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	implementation("org.postgresql:postgresql")
+	implementation("com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.5")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
